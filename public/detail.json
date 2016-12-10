@@ -1,0 +1,163 @@
+{
+    "userBasics": {
+        "userThumbNail": "path",
+        "userName": "Chandan Mishra",
+        "userDesign": "UI Developer",
+        "jobLocation": "Hinjewadi, Pune",
+        "recentActivity": "Learning Angular 2 and Typescript, along with that keeping eye on SASS"
+    },
+    "userWidgets": [
+        {
+            "widgetName": "About",
+            "widgetsLogo": "path",
+            "widgetDetail": {
+                "personal Detail": {
+                    "emailId": "c.cmishra@hotmail.com",
+                    "mobNo": "8956166824",
+                    "shortMsg": "Hello I am AngularJs web Developer and Love Coding"
+                },
+                "Biodata": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet ligula",
+                "Hobbies": [
+                    {
+                        "hobbyLogo": "path",
+                        "hobbyDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    },
+                    {
+                        "hobbyLogo": "path",
+                        "hobbyDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    },
+                    {
+                        "hobbyLogo": "path",
+                        "hobbyDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    }
+                ]
+            },
+            "currentStatus": "Available as freelance"
+        },
+        {
+            "widgetName": "Resume",
+            "widgetsLogo": "path",
+            "widgetDetail": {
+                "Education": [
+                    {
+                        "logo": "path",
+                        "passYear": "2007",
+                        "studyLocation": "Manpur, Indore",
+                        "studyTitle": "All India Secondary School Examination",
+                        "studySubTitle": "Jawahar Navodaya Vidyalaya, Indore",
+                        "eduDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    },
+                    {
+                        "logo": "path",
+                        "passYear": "2009",
+                        "studyLocation": "Manpur, Indore",
+                        "studyTitle": "All India Senior School Certificate Examination",
+                        "studySubTitle": "Jawahar Navodaya Vidyalaya, Indore",
+                        "eduDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    },
+                    {
+                        "logo": "path",
+                        "startYear": "2010",
+                        "endYear": "2014",
+                        "studyLocation": "Jaipur",
+                        "studyTitle": "Bachelor of Technology",
+                        "studySubTitle": "Rajasthan Technical University",
+                        "eduDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    }
+                ],
+                "Jobs And Experience": [
+                    {
+                        "logo": "path",
+                        "startYear": "2014",
+                        "endYear": "2015",
+                        "jobLocation": "Pune, Maharastra",
+                        "jobTitle": "Junior Software Developer",
+                        "jobSubTitle": "Network Component Pvt Ltd",
+                        "jobDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    },
+                    {
+                        "logo": "path",
+                        "startYear": "2016",
+                        "endYear": "2016",
+                        "jobLocation": "Pune, Maharastra",
+                        "jobTitle": "Software Developer",
+                        "jobSubTitle": "Innoplexus Consultancy",
+                        "jobDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    }
+                ]
+            },
+            "currentStatus": "Available as freelance"
+        },
+        {
+            "widgetName": "Skills",
+            "widgetsLogo": "path",
+            "widgetDetail": {
+                "Programming Skills": [
+                    {
+                        "lastUsed": "Present",
+                        "skillTitle": "AngularJs 1.x",
+                        "LatestVersion": "1.5",
+                        "Rating": "8",
+                        "skillDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    },
+                    {
+                        "lastUsed": "Present",
+                        "skillTitle": "Javascript",
+                        "LatestVersion": "ES6",
+                        "Rating": "8",
+                        "skillDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    },
+                    {
+                        "lastUsed": "Present",
+                        "skillTitle": "HTML",
+                        "LatestVersion": "5",
+                        "Rating": "5",
+                        "skillDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    },
+                    {
+                        "lastUsed": "Present",
+                        "skillTitle": "CSS",
+                        "LatestVersion": "5",
+                        "Rating": "5",
+                        "skillDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    },
+                    {
+                        "lastUsed": "Present",
+                        "skillTitle": "CSS",
+                        "LatestVersion": "5",
+                        "Rating": "5",
+                        "skillDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    }
+                ],
+                "Jobs And Experience": [
+                    {
+                        "logo": "path",
+                        "startYear": "2014",
+                        "endYear": "2015",
+                        "jobLocation": "Pune, Maharastra",
+                        "jobTitle": "Junior Software Developer",
+                        "jobSubTitle": "Network Component Pvt Ltd",
+                        "jobDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    },
+                    {
+                        "logo": "path",
+                        "startYear": "2016",
+                        "endYear": "2016",
+                        "jobLocation": "Pune, Maharastra",
+                        "jobTitle": "Software Developer",
+                        "jobSubTitle": "Innoplexus Consultancy",
+                        "jobDetail": "Lorem ipsum dolor sit amet, consectetur adipiscingVivam sit amet"
+                    }
+                ]
+            },
+            "currentStatus": "Available as freelance"
+        },
+        {
+            "widgetName": "Contact",
+            "widgetsLogo": "path",
+            "widgetsHeading": "GET IN TOUCH",
+            "widgetsSubHeading": "We are waiting to assist you",
+            "widgetsSubHeadingDetail": "simply use the below form to get in touch"
+        }
+    ]
+}

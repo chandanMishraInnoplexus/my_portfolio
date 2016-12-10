@@ -1,0 +1,100 @@
+<div class="left-main">
+    <div class="option-control">
+        <a class="contact-button">
+            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+        </a>
+        <a class="download-button">
+            <i class="fa fa-cloud-download" aria-hidden="true"></i>
+        </a>
+        <div class="portal-purpose">
+            <span> MY PORTFOLIO</span>
+        </div>
+    </div>
+    <aside class="hs-profile-control">
+        <div class="hs-heading">
+            <div class="img-wrap">
+                <img src="./assets/images/profile_pic.jpg" width="150" height="150">
+            </div>
+            <div class="profile-info">
+                <h1>Chandan Mishra</h1>
+                <h4>SOFTWARE DEV</h3>
+            </div>
+        </div>
+        <nav class="hs-menu-list">
+            <div class="scroller-plate">
+                <div ng-click="home.marginCalc(0)" class="pane">
+                    <span class="menu-heading">ABOUT</span>
+                    <span class="menu-icon">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div ng-click="home.marginCalc(1)" class="pane">
+                    <span class="menu-heading">ACADEMY</span>
+                    <span class="menu-icon">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div ng-click="home.marginCalc(2)" class="pane">
+                    <span class="menu-heading">CAREER</span>
+                    <span class="menu-icon">
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div ng-click="home.marginCalc(3)" class="pane">
+                    <span class="menu-heading">SKILLS SET</span>
+                    <span class="menu-icon">
+                        <i class="fa fa-cogs" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div ng-click="home.marginCalc(4)" class="pane">
+                    <span class="menu-heading">CERTIFICATIONS</span>
+                    <span class="menu-icon">
+                        <i class="fa fa-certificate" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div ng-click="home.marginCalc(5)" class="pane">
+                    <span class="menu-heading">CONTACT</span>
+                    <span class="menu-icon">
+                        <i class="fa fa-address-card" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div ng-click="home.marginCalc(6)" class="pane">
+                    <span class="menu-heading">LINKS</span>
+                    <span class="menu-icon">
+                        <i class="fa fa-link" aria-hidden="true"></i>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </aside>
+</div>
+<div class="right-main">
+    <div class="right-content-header">
+        <div ng-click="home.marginCalc(0)" class="icon-header">
+            <i class="fa fa-home" aria-hidden="true"></i>
+        </div>
+        <div ng-click="home.reelSlider(-1)" class="icon-header">
+            <i class="fa fa-angle-left"></i>
+        </div>
+        <div ng-click="home.reelSlider(1)" class="icon-header">
+            <i class="fa fa-angle-right"></i>
+        </div>
+        <div class="icon-header" style="width:200px;">
+            <i class="fa fa-line-chart"></i>
+            <span style="font-size:13px;">RECENT ACTIVITY :</span>
+        </div>
+        <div class="marque-holder">
+            <marquee width="100%" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+                Welcome to my Portfolio. Here you will find all about me my career and my academic.
+            </marquee>
+        </div>
+    </div>
+    <div class="right-content-body">
+        <div style="margin-left: {{home.styleSlider.margin}}%" class="reel-container">
+            <div class="reel" ng-repeat="var in [1,2,3,4,5,6,7,8]">
+                <div class="index-cards">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
